@@ -1,0 +1,83 @@
+/*FORMATAZZIONE PAGINA*/
+body {
+   background-image: url(Immagini/background.jpg);
+   background-size: cover;
+   font-family: 'Trebuchet MS';
+   text-align: justify ;
+}
+
+.pagina {
+   width: 50%;
+   margin: auto;
+   border-radius: 4% ;
+   background-color: rgba(0, 0, 0, 0.521);
+   padding: 6%;
+}
+
+/*LOGO + INTESTAZIONE*/
+.top {
+    width: 15%;
+    margin: auto;
+}
+
+#logo {
+     width: 160%; 
+     height: auto;
+}
+
+#logo_text {
+   color: rgb(3, 223, 2);
+   text-align: center;
+   margin: 1px;
+}
+
+/*FORMATTAZIONE BUTTON*/
+.box{
+    box-sizing: border-box;
+    border: 0px solid;
+    background: rgb(2, 223, 2);
+    padding: 13px;
+    align-items: center;
+    text-align: center;
+ }
+
+ /*FORMATTAZIONE CHECKBOX, TESTO E BARRA COLORATA*/
+h2 {
+   display: inline-block;
+   color: white;
+   margin-bottom: 0px;
+}
+
+.testo {
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+ }
+
+ #box2 {
+    width:50%;
+    height:30px;
+    border-radius: 7px;
+    background-color: rgb(212, 139, 3);
+    margin-top: 1%;
+    margin-bottom: 3%;
+ }
+
+ #box3{
+    width:75%;
+    height:30px;
+    border-radius: 10px;
+    background-color: rgb(2, 202, 2);
+    margin-top: 1%;
+    margin-bottom: 3%;
+ }
+
+ #box4{
+    width:25%;
+    height:30px;
+    border-radius: 5px;
+    background-color:rgb(252, 17, 0);
+    margin-top: 1%;
+    margin-bottom: 3%;
+ }
+
